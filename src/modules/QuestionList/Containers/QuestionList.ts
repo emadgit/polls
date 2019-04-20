@@ -10,7 +10,7 @@ export interface States {
 const withStateHOC = withState('questions', 'setQuestions', []);
 const withLifeCycleHOC = lifecycle<WrappedProps, {}>({
      componentDidMount(){
-        fetch(config.API_URL)
+        fetch(`${config.API_URL}/questions`)
         .then(response => response.json())
         .then(data => this.props.setQuestions(data));
     }     

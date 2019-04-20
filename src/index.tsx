@@ -5,7 +5,7 @@ import  './index.css'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import  Home  from './modules/Home/Components/Home';
 import { QuestionList } from './modules/QuestionList/Containers/QuestionList';
-import  QuestionDetail from './modules/QuestionDetail/Components/QuestionDetail';
+import  { QuestionDetail } from './modules/QuestionDetail/Containers/QuestionDetail';
 import  Navbar  from './sharedComponents/Navbar/Navbar';
 import Grid from '@material-ui/core/Grid';
 

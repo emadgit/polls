@@ -1,6 +1,6 @@
 
 export interface Choice {
     url: string,
-    vote: number,
+    votes: number,
     choice: string,
 }

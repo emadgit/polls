@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# deploy folder
+dist
+
+# cache folder
+.cache
