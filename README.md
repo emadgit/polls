@@ -4,7 +4,7 @@ A single page application that lets users vote through the Polls API.
 # React | Typescript | Parcel
 
 <br />
-<p>It Used React 🚀 with Typescript 🔥 and bundled everything using my favorate bundler, parcel 📦. Also there are some other cool stuff used, like lodash, date-fns, jest, prettier.</p>
+<p>It Used React 🚀 with Typescript 🔥 and bundled everything using my favorite bundler, parcel 📦. Also there are some other cool stuff used, like lodash, date-fns, jest, prettier.</p>
 
 ## How To Use
 
