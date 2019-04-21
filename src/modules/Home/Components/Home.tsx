@@ -10,7 +10,7 @@ const Home = () => {
         className="whiteColor"
         gutterBottom
       >
-        Welcome to Pools App!
+        Welcome to Polls App!
       </Typography>
       <Typography component="p" variant="body2" className="whiteColor">
         Here you can view polls and vote in them ;)

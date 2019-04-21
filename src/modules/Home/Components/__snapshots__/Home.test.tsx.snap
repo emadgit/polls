@@ -10,7 +10,7 @@ exports[`Home Component should render correctly 1`] = `
     gutterBottom={true}
     variant="display2"
   >
-    Welcome to Pools App!
+    Welcome to Polls App!
   </WithStyles(Typography)>
   <WithStyles(Typography)
     className="whiteColor"
