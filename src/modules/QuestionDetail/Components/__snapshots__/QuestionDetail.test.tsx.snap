@@ -8,35 +8,12 @@ exports[`QuestionDetail Component should render correctly 1`] = `
     className="whiteColor"
     component="h3"
     variant="title"
-  >
-    Bacon?
-  </WithStyles(Typography)>
+  />
   <WithStyles(Grid)
     className="verticalSpacing"
     container={true}
     spacing={8}
-  >
-    <WithStyles(Grid)
-      item={true}
-      key="TEST"
-      md={2}
-      sm={6}
-      xs={12}
-    >
-      <WithStyles(Button)
-        onClick={[Function]}
-        variant="flat"
-      >
-        <WithStyles(Chip)
-          color="default"
-          label="
-                     TEST | 213
-
-                    "
-        />
-      </WithStyles(Button)>
-    </WithStyles(Grid)>
-  </WithStyles(Grid)>
+  />
   <WithStyles(Snackbar)
     ContentProps={
       Object {

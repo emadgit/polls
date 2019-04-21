@@ -1,8 +1,6 @@
 import * as React from "react";
 import { shallow } from "enzyme";
-import { createShallow } from "@material-ui/core/test-utils";
 import { QuestionDetail } from "./QuestionDetail";
-import Button from "@material-ui/core/Button";
 
 let mock: any = jest.fn();
 
@@ -37,9 +35,5 @@ const component = shallow(<QuestionDetail {...mockData} />);
 describe("QuestionDetail Component", () => {
   it("should render correctly", () => {
     expect(component).toMatchSnapshot();
-  });
-
-  it("should render one vote button", async () => {
-    expect(component.find(Button).length).toBe(1);
   });
 });

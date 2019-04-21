@@ -100,7 +100,8 @@ exports[`QuestionList Component should render correctly 1`] = `
             >
               Published : 
               1424
-               days ago
+               
+              days ago
             </WithStyles(Typography)>
           </WithStyles(Paper)>
         </Link>
@@ -164,7 +165,8 @@ exports[`QuestionList Component should render correctly 1`] = `
             >
               Published : 
               1424
-               days ago
+               
+              days ago
             </WithStyles(Typography)>
           </WithStyles(Paper)>
         </Link>
