@@ -14,11 +14,9 @@ Clone the repository :
 `https://github.com/emadgit/polls.git`
 
 <br />
-
 Then install Parcel using Yarn (or npm):
 
 <br />
-
 Yarn : 
 
 `yarn global add parcel-bundler`
