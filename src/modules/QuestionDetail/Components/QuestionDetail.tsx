@@ -28,12 +28,9 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
   question && question.choices &&
   question.choices.map((c: Choice, i:number) => {
       return (
-        <Grid item sm={6} xs={12} md={2} key={c.url} style={{cursor:"pointer"}}>
-          <Button variant="text" onClick={() => handleVote(c.url,i)}>
-            <Chip
-              color="default"
-              label={`${c.choice} | ${c.votes}`}
-            />
+        <Grid item sm={6} xs={12} md={2} key={c.url}>
+          <Button variant="outlined" color="primary" className="whiteColor" onClick={() => handleVote(c.url,i)}>
+          {c.choice} | {c.votes}
           </Button>
         </Grid>
       );

@@ -49,6 +49,9 @@ body {
 .noTextDecoration{
     text-decoration: none;
 }
+.pointer:hover {
+    cursor: pointer;
+}
 
 .listItem {
     color: white;
