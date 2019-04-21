@@ -14,23 +14,30 @@ Clone the repository :
 
 <br />
 Then install Parcel using Yarn (or npm):
+<br />
 
 Yarn : 
+
 `yarn global add parcel-bundler`
 
 npm : 
+
 `npm install -g parcel-bundler`
 
 After Parcel is installed, in your terminal go to root of the project ( where the package.json exist ) and run : 
+<br />
+
 `yarn`
 
 This will install all the required dependencies. Then to run the project locally run : 
+<br />
+
 `yarn dev`
 
 Now a local server is running by default on port `1234`, you can see the project on your browser now 🚀 : 
+<br />
+
 `http://localhost:1234`
-
-
 
 <br />
 To run tests, run : 
