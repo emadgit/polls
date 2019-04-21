@@ -20,14 +20,15 @@ export const QuestionList: FunctionComponent<WrappedProps> = ({
           return (
             <Grid
               item
-              sm={6}
+              sm={12}
               xs={12}
-              md={4}
-              key={q.question}
+              md={6}
+              lg={6}
+              key={q.url}
               className="listItem"
             >
               <Link
-                className="noTextDecoration listItemLink"
+                className="noTextDecoration"
                 to={{
                   pathname: q.url,
                   state: {
@@ -35,7 +36,7 @@ export const QuestionList: FunctionComponent<WrappedProps> = ({
                   }
                 }}
               >
-                <Paper elevation={1}>
+                <Paper elevation={1} className="padding-10 margin-10">
                   <Typography variant="h5" component="h3">
                     {q.question}
                   </Typography>
@@ -59,8 +60,8 @@ export const QuestionList: FunctionComponent<WrappedProps> = ({
           />
           <div className="verticalSpacing">
             <Typography
-              component="h2"
-              variant="title"
+              component="h3"
+              variant="subtitle1"
               className="whiteColor"
               gutterBottom
             >

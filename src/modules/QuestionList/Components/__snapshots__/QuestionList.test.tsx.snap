@@ -14,9 +14,9 @@ exports[`QuestionList Component should render correctly 1`] = `
     >
       <WithStyles(Typography)
         className="whiteColor"
-        component="h2"
+        component="h3"
         gutterBottom={true}
-        variant="title"
+        variant="subtitle1"
       >
         Choose your question
       </WithStyles(Typography)>
@@ -29,13 +29,14 @@ exports[`QuestionList Component should render correctly 1`] = `
       <WithStyles(Grid)
         className="listItem"
         item={true}
-        key="Game Genre"
-        md={4}
-        sm={6}
+        key="/questions/10"
+        lg={6}
+        md={6}
+        sm={12}
         xs={12}
       >
         <Link
-          className="noTextDecoration listItemLink"
+          className="noTextDecoration"
           to={
             Object {
               "pathname": "/questions/10",
@@ -87,6 +88,7 @@ exports[`QuestionList Component should render correctly 1`] = `
           }
         >
           <WithStyles(Paper)
+            className="padding-10 margin-10"
             elevation={1}
           >
             <WithStyles(Typography)
@@ -109,13 +111,14 @@ exports[`QuestionList Component should render correctly 1`] = `
       <WithStyles(Grid)
         className="listItem"
         item={true}
-        key="Favourite hot beverage?"
-        md={4}
-        sm={6}
+        key="/questions/9"
+        lg={6}
+        md={6}
+        sm={12}
         xs={12}
       >
         <Link
-          className="noTextDecoration listItemLink"
+          className="noTextDecoration"
           to={
             Object {
               "pathname": "/questions/9",
@@ -152,6 +155,7 @@ exports[`QuestionList Component should render correctly 1`] = `
           }
         >
           <WithStyles(Paper)
+            className="padding-10 margin-10"
             elevation={1}
           >
             <WithStyles(Typography)

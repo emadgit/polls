@@ -28,7 +28,7 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
   question && question.choices &&
   question.choices.map((c: Choice, i:number) => {
       return (
-        <Grid item sm={6} xs={12} md={2} key={c.choice}>
+        <Grid item sm={6} xs={12} md={2} key={c.url} style={{cursor:"pointer"}}>
           <Button variant="text" onClick={() => handleVote(c.url,i)}>
             <Chip
               color="default"
@@ -40,7 +40,7 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
     });
   return (
     <div className="viewSection">
-      <Typography variant="title" component="h3" className="whiteColor">
+      <Typography variant="title" component="h3" className="whiteColor padding-10">
         {question && question.question}
       </Typography>
       <Grid container spacing={8} className="verticalSpacing">

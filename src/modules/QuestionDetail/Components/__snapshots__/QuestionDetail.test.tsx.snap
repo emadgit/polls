@@ -5,7 +5,7 @@ exports[`QuestionDetail Component should render correctly 1`] = `
   className="viewSection"
 >
   <WithStyles(Typography)
-    className="whiteColor"
+    className="whiteColor padding-10"
     component="h3"
     variant="title"
   />
