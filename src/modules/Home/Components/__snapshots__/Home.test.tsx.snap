@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should render correctly 1`] = `
+<div
+  className="viewSection"
+>
+  <WithStyles(Typography)
+    className="whiteColor"
+    component="h2"
+    gutterBottom={true}
+    variant="display2"
+  >
+    Welcome to Pools App!
+  </WithStyles(Typography)>
+  <WithStyles(Typography)
+    className="whiteColor"
+    component="p"
+    variant="body2"
+  >
+    Here you can view polls and vote in them ;)
+  </WithStyles(Typography)>
+</div>
+`;

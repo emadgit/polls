@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionList Component should render correctly 1`] = `
+<div
+  className="viewSection"
+>
+  <div>
+    <WithStyles(Chip)
+      color="primary"
+      label="Total Questions :  2"
+    />
+    <div
+      className="verticalSpacing"
+    >
+      <WithStyles(Typography)
+        className="whiteColor"
+        component="h2"
+        gutterBottom={true}
+        variant="title"
+      >
+        Choose your question
+      </WithStyles(Typography)>
+    </div>
+    <WithStyles(Grid)
+      className="verticalSpacing"
+      container={true}
+      spacing={8}
+    >
+      <WithStyles(Grid)
+        className="listItem"
+        item={true}
+        key="Game Genre"
+        md={4}
+        sm={6}
+        xs={12}
+      >
+        <Link
+          className="noTextDecoration listItemLink"
+          to={
+            Object {
+              "pathname": "/questions/10",
+              "state": Object {
+                "question": Object {
+                  "choices": Array [
+                    Object {
+                      "choice": "Shooter",
+                      "url": "/questions/10/choices/70",
+                      "votes": 1193,
+                    },
+                    Object {
+                      "choice": "Action",
+                      "url": "/questions/10/choices/69",
+                      "votes": 402,
+                    },
+                    Object {
+                      "choice": "Strategy",
+                      "url": "/questions/10/choices/74",
+                      "votes": 258,
+                    },
+                    Object {
+                      "choice": "Action-adventure",
+                      "url": "/questions/10/choices/71",
+                      "votes": 236,
+                    },
+                    Object {
+                      "choice": "Sports",
+                      "url": "/questions/10/choices/75",
+                      "votes": 209,
+                    },
+                    Object {
+                      "choice": "Simulation",
+                      "url": "/questions/10/choices/73",
+                      "votes": 203,
+                    },
+                    Object {
+                      "choice": "Role-playing",
+                      "url": "/questions/10/choices/72",
+                      "votes": 179,
+                    },
+                  ],
+                  "published_at": "2015-05-27T21:22:26.670000+00:00",
+                  "question": "Game Genre",
+                  "url": "/questions/10",
+                },
+              },
+            }
+          }
+        >
+          <WithStyles(Paper)
+            elevation={1}
+          >
+            <WithStyles(Typography)
+              component="h3"
+              variant="h5"
+            >
+              Game Genre
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              component="p"
+            >
+              Published : 
+              1424
+               days ago
+            </WithStyles(Typography)>
+          </WithStyles(Paper)>
+        </Link>
+      </WithStyles(Grid)>
+      <WithStyles(Grid)
+        className="listItem"
+        item={true}
+        key="Favourite hot beverage?"
+        md={4}
+        sm={6}
+        xs={12}
+      >
+        <Link
+          className="noTextDecoration listItemLink"
+          to={
+            Object {
+              "pathname": "/questions/9",
+              "state": Object {
+                "question": Object {
+                  "choices": Array [
+                    Object {
+                      "choice": "Tea",
+                      "url": "/questions/9/choices/65",
+                      "votes": 404,
+                    },
+                    Object {
+                      "choice": "Apple Cider",
+                      "url": "/questions/9/choices/67",
+                      "votes": 184,
+                    },
+                    Object {
+                      "choice": "Coffee",
+                      "url": "/questions/9/choices/66",
+                      "votes": 158,
+                    },
+                    Object {
+                      "choice": "Hot Chocolate",
+                      "url": "/questions/9/choices/68",
+                      "votes": 146,
+                    },
+                  ],
+                  "published_at": "2015-05-27T21:22:26.648000+00:00",
+                  "question": "Favourite hot beverage?",
+                  "url": "/questions/9",
+                },
+              },
+            }
+          }
+        >
+          <WithStyles(Paper)
+            elevation={1}
+          >
+            <WithStyles(Typography)
+              component="h3"
+              variant="h5"
+            >
+              Favourite hot beverage?
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              component="p"
+            >
+              Published : 
+              1424
+               days ago
+            </WithStyles(Typography)>
+          </WithStyles(Paper)>
+        </Link>
+      </WithStyles(Grid)>
+    </WithStyles(Grid)>
+  </div>
+</div>
+`;
