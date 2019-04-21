@@ -9,8 +9,6 @@ import { QuestionDetail } from "./modules/QuestionDetail/Containers/QuestionDeta
 import Navbar from "./sharedComponents/Navbar/Navbar";
 import Grid from "@material-ui/core/Grid";
 
-// import './index.css'
-
 class App extends Component {
   render() {
     return (

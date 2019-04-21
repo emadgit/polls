@@ -1,11 +1,9 @@
 import React, { useEffect, FunctionComponent } from "react";
 import { Question } from "../../../Interface/Question";
 import { Choice } from "../../../Interface/Choice";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-import Chip from "@material-ui/core/Chip";
 import { WrappedProps } from "../Containers/QuestionDetail";
 import Snackbar from "@material-ui/core/Snackbar";
 import SnackbarContent from "@material-ui/core/SnackbarContent";

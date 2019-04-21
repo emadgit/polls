@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
 import * as _ from "lodash";
 import Chip from "@material-ui/core/Chip";
-import List from "@material-ui/core/List";
 import { differenceInDays } from "date-fns";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
@@ -20,7 +19,6 @@ export const QuestionList: FunctionComponent<WrappedProps> = ({
           return (
             <Grid
               item
-              sm={12}
               xs={12}
               md={6}
               lg={6}

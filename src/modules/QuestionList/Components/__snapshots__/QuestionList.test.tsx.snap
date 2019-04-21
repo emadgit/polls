@@ -32,7 +32,6 @@ exports[`QuestionList Component should render correctly 1`] = `
         key="/questions/10"
         lg={6}
         md={6}
-        sm={12}
         xs={12}
       >
         <Link
@@ -114,7 +113,6 @@ exports[`QuestionList Component should render correctly 1`] = `
         key="/questions/9"
         lg={6}
         md={6}
-        sm={12}
         xs={12}
       >
         <Link
