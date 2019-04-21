@@ -9,10 +9,14 @@ A single page application that lets users vote through the Polls API.
 ## How To Use
 
 Clone the repository : 
+<br />
+
 `https://github.com/emadgit/polls.git`
 
 <br />
+
 Then install Parcel using Yarn (or npm):
+
 <br />
 
 Yarn : 
