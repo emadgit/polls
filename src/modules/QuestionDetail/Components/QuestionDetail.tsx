@@ -14,22 +14,25 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
   handleVote,
   showSnackbar,
   handleClose,
-  location
+  location,
+  setQuestion,
+  question
 }) => {
-  console.log("WTF : ", location.state);
+  useEffect(()=> {
+    setQuestion(data);
+  }, [])
+ 
   const data: Question = location.state.question;
+
   const renderChoices =
-    data &&
-    data.choices.map((c: Choice) => {
+  question && question.choices &&
+  question.choices.map((c: Choice, i:number) => {
       return (
         <Grid item sm={6} xs={12} md={2} key={c.choice}>
-          <Button variant="flat" onClick={() => handleVote(c.url)}>
+          <Button variant="text" onClick={() => handleVote(c.url,i)}>
             <Chip
               color="default"
-              label={`
-                     ${c.choice} | ${c.votes}
-
-                    `}
+              label={`${c.choice} | ${c.votes}`}
             />
           </Button>
         </Grid>
@@ -38,7 +41,7 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
   return (
     <div className="viewSection">
       <Typography variant="title" component="h3" className="whiteColor">
-        {data.question}
+        {question && question.question}
       </Typography>
       <Grid container spacing={8} className="verticalSpacing">
         {renderChoices}

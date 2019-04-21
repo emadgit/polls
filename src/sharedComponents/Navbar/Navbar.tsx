@@ -18,11 +18,6 @@ export default function Navbar() {
             <ListItemText primary="Questions" />
           </ListItem>
         </Link>
-        <Link className="noTextDecoration secondaryFontColor" to="/create">
-          <ListItem button>
-            <ListItemText primary="Create" />
-          </ListItem>
-        </Link>
       </List>
     </div>
   );
