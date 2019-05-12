@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./modules/Home/Components/Home";
 import { QuestionList } from "./modules/QuestionList/Containers/QuestionList";
 import { QuestionDetail } from "./modules/QuestionDetail/Containers/QuestionDetail";
+import { CreateQuestion } from "./modules/CreateQuestion/Containers/CreateComponent";
 import Navbar from "./sharedComponents/Navbar/Navbar";
 import Grid from "@material-ui/core/Grid";
 
@@ -27,6 +28,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/questions" component={QuestionList} />
             <Route path="/questions/:id" component={QuestionDetail} />
+            <Route path="/create" component={CreateQuestion} />
           </Grid>
         </Grid>
       </Router>

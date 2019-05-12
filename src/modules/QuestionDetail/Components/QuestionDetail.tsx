@@ -16,26 +16,36 @@ export const QuestionDetail: FunctionComponent<WrappedProps> = ({
   setQuestion,
   question
 }) => {
-  useEffect(()=> {
+  useEffect(() => {
     setQuestion(data);
-  }, [])
- 
+  }, []);
+
   const data: Question = location.state.question;
 
   const renderChoices =
-  question && question.choices &&
-  question.choices.map((c: Choice, i:number) => {
+    question &&
+    question.choices &&
+    question.choices.map((c: Choice, i: number) => {
       return (
         <Grid item sm={6} xs={12} md={2} key={c.url}>
-          <Button variant="outlined" color="primary" className="whiteColor" onClick={() => handleVote(c.url,i)}>
-          {c.choice} | {c.votes}
+          <Button
+            variant="outlined"
+            color="primary"
+            className="whiteColor"
+            onClick={() => handleVote(c.url, i)}
+          >
+            {c.choice} | {c.votes}
           </Button>
         </Grid>
       );
     });
   return (
     <div className="viewSection">
-      <Typography variant="title" component="h3" className="whiteColor padding-10">
+      <Typography
+        variant="title"
+        component="h3"
+        className="whiteColor padding-10"
+      >
         {question && question.question}
       </Typography>
       <Grid container spacing={8} className="verticalSpacing">

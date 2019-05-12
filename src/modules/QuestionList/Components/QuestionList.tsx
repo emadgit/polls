@@ -17,14 +17,7 @@ export const QuestionList: FunctionComponent<WrappedProps> = ({
     questions.length > 0
       ? questions.map(q => {
           return (
-            <Grid
-              item
-              xs={12}
-              md={6}
-              lg={6}
-              key={q.url}
-              className="listItem"
-            >
+            <Grid item xs={12} md={6} lg={6} key={q.url} className="listItem">
               <Link
                 className="noTextDecoration"
                 to={{

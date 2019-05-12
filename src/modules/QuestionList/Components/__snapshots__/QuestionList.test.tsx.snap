@@ -100,7 +100,7 @@ exports[`QuestionList Component should render correctly 1`] = `
               component="p"
             >
               Published : 
-              1424
+              1445
                
               days ago
             </WithStyles(Typography)>
@@ -166,7 +166,7 @@ exports[`QuestionList Component should render correctly 1`] = `
               component="p"
             >
               Published : 
-              1424
+              1445
                
               days ago
             </WithStyles(Typography)>
